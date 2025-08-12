@@ -28,7 +28,7 @@ export default function HomePage() {
   const videoRef = useRef(null);
   const canvasRef = useRef(null);
 
-  const apiRoot = process.env.NEXT_PUBLIC_API_ROOT || "http://localhost:5000";
+  const apiRoot = process.env.NEXT_PUBLIC_API_ROOT;
 
   // Start camera
   const startCamera = async () => {
